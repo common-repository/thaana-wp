@@ -1,0 +1,29 @@
+
+@charset"utf-8";
+ @font-face {
+    font-family:"MV Waheed";
+    src: url('MV_Waheed.otf') format("opentype");
+}
+@font-face {
+    font-family:"MV Faseyha";
+    src: url('MV_Faseyha.otf') format("opentype");
+}
+
+body#tinymce.wp-editor { 
+	    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 10px; 
+    line-height: 23pt;
+    direction: rtl;
+    font-size:14pt;
+    font-family: "MV Faseyha"
+}
+
+body#tinymce.wp-editor a {
+    color: #4CA6CF;
+}
+
+div.mce-panel {
+	background:blue;
+}
